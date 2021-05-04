@@ -1,22 +1,15 @@
-.Synonyms {
-  text-align: center;
-}
-.Synonyms ul {
-  display: inline-block;
-  padding: 0px;
-}
 .Synonyms li {
-  color: whitesmoke;
-  font-size: 14px;
-  padding: 4px 10px;
+  display: inline-block;
+  border: 1px solid grey;
+  font-size: 11px;
+  padding: 2px;
   margin: 0px;
   border-radius: 10px;
-  box-shadow: 0px 1px 6px 1px #181818;
-  text-shadow: 1px 1px 3px #181818;
+  margin: 2px;
   text-decoration: none;
-  background: radial-gradient(
-    circle,
-    rgba(147, 143, 143, 1) 16%,
-    rgba(115, 114, 114, 1) 78%
-  );
+}
+.Synonyms span {
+  font-size: 11px;
+  font-weight: 1.5;
+  color: indigo;
 }

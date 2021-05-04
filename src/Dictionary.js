@@ -30,9 +30,9 @@ export default function Dictionary() {
           type="Search"
           placeholder="Search for a word"
           onChange={handleChange}
-          autoFocus="off"
         />
       </form>
+
       <Results results={results} />
     </div>
   );

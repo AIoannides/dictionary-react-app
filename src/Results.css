@@ -1,13 +1,13 @@
 .Results {
-  width: 400px;
+  width: 450px;
   height: 650px;
-  padding: 30px;
+  padding: 20px;
   background: #fff;
   border-left: 30px solid #534e4e;
   border-top: 1px solid #575454;
   border-right: 1px solid #575454;
   border-bottom: 1px solid #575454;
-  transform: rotate(-5deg) skewX(10deg) scale(0.8);
+  transform: rotate(0deg) skewX(3deg) scale(0.8);
   box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.5);
 }
 .Results:before {
@@ -32,6 +32,14 @@
   transform: skewX(-45deg) translate(-11px, 30px);
 }
 
+.Results section {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 4px 0;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  background: white;
+}
 .Results h2 {
-  margin: -20px 0 10px 0;
+  text-align: center;
+  font-size: 22px;
 }
