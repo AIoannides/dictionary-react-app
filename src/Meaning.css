@@ -7,6 +7,8 @@
 .Meaning .Example {
   font-size: 11px;
   margin-top: 5px;
+  margin-bottom: 5px;
+  font-style: italic;
 }
 .Meaning .Definition {
   font-size: 12px;

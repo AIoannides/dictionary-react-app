@@ -1,6 +1,9 @@
 .App {
   font-family: "Noto Sans JP", Arial, Helvetica, sans-serif;
+  max-width: 980px;
+  margin: 0 auto;
 }
+
 .App-header {
   margin: 20px;
   text-align: left;

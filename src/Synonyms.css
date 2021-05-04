@@ -1,3 +1,6 @@
+.Synonyms ul {
+  margin-left: -30px;
+}
 .Synonyms li {
   display: inline-block;
   border: 1px solid grey;
