@@ -1,6 +1,18 @@
 .Dictionary {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -40%);
+  /* position: absolute;
+  top: 50px;
+  left: 100px; */
+  /* transform: translate(-50%, -40%); */
+}
+
+.search {
+  text-align: center;
+}
+
+.search-input {
+  padding: 10px;
+  min-width: 300px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid lightpink;
 }

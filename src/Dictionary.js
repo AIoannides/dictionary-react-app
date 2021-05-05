@@ -17,6 +17,11 @@ export default function Dictionary() {
 
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${searchWord}`;
     axios.get(apiUrl).then(handleResponse);
+
+    // let pexelApiKey =
+    //   "563492ad6f91700001000001aacf4c1701044b84b18b5cf49c70a7b1";
+    // let pexelsUrl = `https://api.pexels.com/v1/search?query=${searchWord}&per_page=1`;
+    // axios.get(pexelUrl).then(handlePexelsResponse);
   }
 
   function handleChange(event) {
@@ -25,11 +30,12 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <form onSubmit={search}>
+      <form className="search" onSubmit={search}>
         <input
           type="Search"
           placeholder="Search for a word"
           onChange={handleChange}
+          className="search-input"
         />
       </form>
 

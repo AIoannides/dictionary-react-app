@@ -2,6 +2,10 @@
   font-family: "Noto Sans JP", Arial, Helvetica, sans-serif;
   max-width: 980px;
   margin: 0 auto;
+  min-height: 100vh;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
 }
 
 .App-header {
