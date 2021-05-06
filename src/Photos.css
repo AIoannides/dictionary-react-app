@@ -1,6 +1,6 @@
 .Photos {
   width: 700px;
-  /* height: 650px; */
+  height: 650px;
   padding: 20px;
   background: #fff;
   border-left: 30px solid #534e4e;
@@ -36,4 +36,15 @@
   border-radius: 4px;
   margin-bottom: 20px;
   border: 2px solid indigo;
+}
+.Photos-main h3 {
+  text-align: center;
+  margin-top: 20px;
+  border: 1px solid indigo;
+  padding: 10px;
+  display: block;
+  margin: auto;
+  max-width: 300px;
+  border-radius: 4px;
+  background: white;
 }
