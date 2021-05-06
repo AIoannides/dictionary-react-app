@@ -1,15 +1,16 @@
 .Meaning h3 {
-  font-size: 12px;
+  font-size: 18px;
   color: indigo;
   font-weight: 1.5;
 }
 
 .Meaning .Example {
-  font-size: 11px;
+  font-size: 14px;
   margin-top: 5px;
   margin-bottom: 5px;
   font-style: italic;
+  font-weight: 600;
 }
 .Meaning .Definition {
-  font-size: 12px;
+  font-size: 16px;
 }
